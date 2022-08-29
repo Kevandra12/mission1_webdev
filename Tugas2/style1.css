@@ -1,0 +1,281 @@
+head {
+    display: none;
+}
+link {
+    display: none;
+}
+title {
+    display: none;
+}
+
+/*class:body*/
+
+body {
+    position: relative;
+}
+
+
+body {
+    line-height: 1.5;
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+body {
+    display: block;
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+body, h1, h2, h3, h4, h5, h6, input {
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    color: #111;
+    background-color: #fff;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    line-height: 2;
+    font-size: 100%;
+}
+
+body {
+    font-size: medium;
+    font-weight: 100;
+}
+
+/*class:header*/
+
+header {
+    display: block;
+}
+
+header {
+    display: block;
+}
+
+/*class:flex*/
+
+.flex-center {
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+}
+
+@media (min-width: 52em) {
+.md-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    }   
+}
+    
+.flex-center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+     align-items: center;
+}
+    
+.flex-auto {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    min-width: 0;
+    min-height: 0;
+}
+    
+.flex-none {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+/*class:container*/
+
+.container {
+    max-width: 73.75rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.container {
+    max-width: 110em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*class:campur*/
+
+@media (min-width: 40em) {
+.sm-show {
+    display: block!important;
+    }
+}
+
+.no3 {
+    margin-right: 2rem;
+}
+
+element.style {
+    background-color: rgb(35, 76, 117);
+}
+
+.rounded {
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+/*class:mb*/
+
+.m0 {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.mb1 {
+    margin-bottom: 0.5rem;
+}
+
+.mb4 {
+    margin-bottom: 4rem;
+}
+
+/*class;h*/
+
+.h3 {
+    font-size: 1.625rem;
+}
+
+.h4 {
+    font-size: 1.375rem;
+}
+
+.h5 {
+    font-size: 1.125rem;
+}
+
+/*class:color*/
+
+.med-gray {
+    color: #121313;
+}
+
+.red {
+    color: #e31340;
+}
+
+.gray {
+    color: #949EB2;
+}
+
+/*class:border,btn*/
+
+.semibold, .btn {
+    font-weight: 600;
+}
+
+.border-none {
+    border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.shadow, .btn-outline:hover {
+    box-shadow: 0 0 1px 0 rgb(56 64 79 / 30%), 0 1px 1px 0 rgb(9 24 54 / 24%), 0 2px 5px 0 rgb(9 24 54 / 6%);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.btn-outline {
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.btn, .btn:hover {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.btn {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.125rem;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    height: auto;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: inherit;
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
